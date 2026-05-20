@@ -1,28 +1,28 @@
 class Keplars < Formula
   desc "Official CLI for the Keplars transactional email API"
   homepage "https://github.com/KeplarsHQ/cli"
-  version "1.11.10"
+  version "2.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/KeplarsHQ/cli/releases/download/v#{version}/keplars-darwin-arm64"
-      sha256 "f942cce3ccab246d53aa4879eb1a9bb8633b4912da3b6c3494dc9be09dce1166"
+      sha256 "8aa469477a21cbad59a564df02f0813350e566501d7424382fd70d99feb0c75e"
     end
     on_intel do
       url "https://github.com/KeplarsHQ/cli/releases/download/v#{version}/keplars-darwin-amd64"
-      sha256 "bef8efd381549d30d4a1537a0893015115535c97702894ab3ca302048588e33a"
+      sha256 "f64aba504532c6391025379803247523080ac0fa0c68c8253c4e03b8862d5492"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/KeplarsHQ/cli/releases/download/v#{version}/keplars-linux-arm64"
-      sha256 "9290871e92e60fd5a58716dd1224ebbc16b6165847abec50e996bf88b8b3a2d9"
+      sha256 "68c30bfa1ec5d2d665f0586ecc55fac19e17aea81581a6aa0f4f68a1987bc45b"
     end
     on_intel do
       url "https://github.com/KeplarsHQ/cli/releases/download/v#{version}/keplars-linux-amd64"
-      sha256 "16146644e437005ad5f89820bc28dd13de0ba61bf1232f76f5d653176c04505b"
+      sha256 "e9b19f02fb2e0c64b75f76d14408cf6a61e575b5c9876a1824a71a879f51ab9a"
     end
   end
 
